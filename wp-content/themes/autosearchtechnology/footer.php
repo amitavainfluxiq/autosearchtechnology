@@ -97,8 +97,179 @@
 
 <div class="footercopyright">Copyright 2016 | All Right Reserved by Auto Search Technologies</div>
 
-             
+   <input type="button" onclick="showmodal1()" value="Openmodal">
             
+    </div>
+</div>
+
+
+
+
+<div id="zoompopup2" class="modal fade zoomimgwrapper">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body">
+
+                <a class="close" data-dismiss="modal">×</a>
+
+      <img src="<?php echo get_template_directory_uri(); ?>/images/zoom_img2.png" alt="">
+
+                <div class="clear"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div id="zoompopup1" class="modal fade zoomimgwrapper">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body">
+
+                <a class="close" data-dismiss="modal">×</a>
+
+      <img src="<?php echo get_template_directory_uri(); ?>/images/zoom_img1.png" alt="">
+
+                <div class="clear"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="zoompopup3" class="modal fade zoomimgwrapper">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body">
+
+                <a class="close" data-dismiss="modal">×</a>
+
+      <img src="<?php echo get_template_directory_uri(); ?>/images/zoom_img3.png" alt="">
+
+                <div class="clear"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="zoompopup4" class="modal fade zoomimgwrapper">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body">
+
+                <a class="close" data-dismiss="modal">×</a>
+
+      <img src="<?php echo get_template_directory_uri(); ?>/images/zoom_img4.png" alt="">
+
+                <div class="clear"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="zoompopup5" class="modal fade zoomimgwrapper">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body">
+
+                <a class="close" data-dismiss="modal">×</a>
+
+      <img src="<?php echo get_template_directory_uri(); ?>/images/zoom_img5.png" alt="">
+
+                <div class="clear"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="zoompopup6" class="modal fade zoomimgwrapper">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body">
+
+                <a class="close" data-dismiss="modal">×</a>
+
+      <img src="<?php echo get_template_directory_uri(); ?>/images/zoom_img6.png" alt="">
+
+                <div class="clear"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="zoompopup7" class="modal fade zoomimgwrapper">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body">
+
+                <a class="close" data-dismiss="modal">×</a>
+
+      <img src="<?php echo get_template_directory_uri(); ?>/images/zoom_img7.png" alt="">
+
+                <div class="clear"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="zoompopup8" class="modal fade zoomimgwrapper">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body">
+
+                <a class="close" data-dismiss="modal">×</a>
+
+      <img src="<?php echo get_template_directory_uri(); ?>/images/zoom_img8.png" alt="">
+
+                <div class="clear"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<div id="thankyou_popup" class="thankyou_popup_wrapper modal fade">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body">
+
+                <a class="close" data-dismiss="modal">×</a>
+
+                <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="">
+
+                <h4>Thank You</h4>
+
+                <h3>
+                    Thank You for contacting us
+                    an AST member will get back to you shortly
+
+                </h3>
+
+
+                <div class="clear"></div>
+            </div>
+
+        </div>
     </div>
 </div>
 

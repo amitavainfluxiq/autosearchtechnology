@@ -21,7 +21,31 @@
 <?php get_header(); ?>
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post();
+
+if (get_the_category()[0]->slug=='blog'){
+
+?>
+<div class='postsbycategorymain' >
+<ul class='postsbycategory widget_recent_entries'>
+<li class='titleb'>
+<?php echo get_the_title(); ?>
+</li>
+    <li class="contentc">
+    <h2>
+    <?php
+}
     the_content();
+
+
+if (get_the_category()[0]->slug=='blog'){
+
+    ?>
+    </h2>
+    </li>
+    </ul>
+    </div>
+    <?php
+}
 endwhile; else: ?>
     <p>Sorry, no posts matched your criteria.</p>
 <?php endif; ?>

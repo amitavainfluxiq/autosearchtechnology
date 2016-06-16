@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="autosearchtechnology">
+  <component name="PublishConfigData" autoUpload="Always" serverName="ast">
     <serverData>
-      <paths name="autosearchtechnology">
+      <paths name="ast">
         <serverdata>
           <mappings>
             <mapping deploy="/public_html/projects/ast" local="$PROJECT_DIR$" web="/" />
