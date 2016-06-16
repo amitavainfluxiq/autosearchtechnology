@@ -2526,4 +2526,9 @@ p{ margin:0; padding:0;}
 .thankyou_popup_wrapper h3{ margin: 0; padding: 0 0 15px 0;   font-family: "OpenSans-Regular"; font-size: 14px ;color: #111; text-align: center; line-height: 24px;}
 
 
-.democlass{ font-size: 14px;}
+.topnavbar .active a{  color: #ed2124!important; background:none!important;}
+
+.topnavbar .activechild a{ background-color: #fff!important;
+    border-radius: 5px !important;
+    color: #aa1e23 !important;}
+
