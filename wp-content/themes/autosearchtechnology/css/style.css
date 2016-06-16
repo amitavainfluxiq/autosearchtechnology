@@ -2524,3 +2524,6 @@ p{ margin:0; padding:0;}
 .thankyou_popup_wrapper h4:after{ content: ''; display: block; width: 60px; height: 2px; background-color: #ba0202; margin: 10px auto;}
 
 .thankyou_popup_wrapper h3{ margin: 0; padding: 0 0 15px 0;   font-family: "OpenSans-Regular"; font-size: 14px ;color: #111; text-align: center; line-height: 24px;}
+
+
+.democlass{ font-size: 14px;}
