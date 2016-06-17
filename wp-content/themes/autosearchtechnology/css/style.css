@@ -1658,24 +1658,36 @@ p{ margin:0; padding:0;}
 .topnavbar .dropdown-menu{ background: #aa1e23;  top: 38px; padding: 0px; border-radius: 5px!important; }
 
 
+.topnavbar .active a{  color: #ed2124!important; background:none!important;}
 
 
 
-.topnavbar .dropdown-menu li{ margin: 0; padding: 0; border-bottom: solid 1px #630d10; border-radius: 5px!important; }
+
+
+.topnavbar .dropdown-menu li{ margin: 0; padding: 0; border-bottom: solid 1px #821014; border-radius: 5px!important; }
 
 .topnavbar .dropdown-menu li:last-of-type{ border-bottom: none;}
 
 
-
-.topnavbar .dropdown-menu li a{ padding: 10px; display: block; text-align: center; border-radius: 5px!important;}
-
-
-
-.topnavbar .dropdown-menu li a:hover{ color: #aa1e23!important; background: #fff!important; border-radius: 5px!important;}
+.topnavbar .active li a{color: #fff!important;}
 
 
 
-.navbar-nav > .open > a:focus,a:visited { background:inherit!important; color: #fff!important;}
+	
+
+.topnavbar .dropdown-menu li a{ padding: 10px; display: block; text-align: center; border-radius: 5px!important; color: #fff!important;}
+
+
+
+.topnavbar .activechild a{ background-color: #1d1c1c!important;
+    border-radius: 5px !important;
+    color: #ba0202!important;}
+	
+
+.topnavbar .dropdown-menu li a:hover{ color: #fff!important; background: #1d1c1c!important; border-radius: 5px!important;}
+
+
+.navbar-nav > .open > a:focus,a:visited { background:inherit!important; color: #ba0202!important;}
 
 
 
@@ -2526,9 +2538,4 @@ p{ margin:0; padding:0;}
 .thankyou_popup_wrapper h3{ margin: 0; padding: 0 0 15px 0;   font-family: "OpenSans-Regular"; font-size: 14px ;color: #111; text-align: center; line-height: 24px;}
 
 
-.topnavbar .active a{  color: #ed2124!important; background:none!important;}
-
-.topnavbar .activechild a{ background-color: #fff!important;
-    border-radius: 5px !important;
-    color: #aa1e23 !important;}
 
