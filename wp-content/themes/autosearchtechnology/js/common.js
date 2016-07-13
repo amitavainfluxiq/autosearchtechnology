@@ -1,12 +1,54 @@
 $(document).ready(function(){
 
 
+    var windowHeight = $(window).height();
+
+    var topHeight = $('.topnavbar').height();
+
+
+
+    var bannerHeight = parseInt(windowHeight) - parseInt(topHeight);
+
+    var windowSize = $(window).width();
+
+    if (screen.width > 1199) {
+    $(".homebannerslider").css({
+        height: bannerHeight
+    });
+
+    }
+
+
+    else {
+
+
+        $(".homebannerslider").css({
+            height: "auto"
+        });
+    }
+
+    $('[data-toggle="popover"]').popover();
+
+
+
+
+   /* $('.block5div a ').click(function(){
+
+        console.log('test');
+        console.log($(this).text());
+
+        if ($(this).text() == "Show Less")
+            $(this).text("Know More")
+        else
+            $(this).text("Show Less");
+    });*/
+
     setTimeout(click(), 5000);
 
     function click()
     {
         $(".uparrow").click();
-
+       
     }
 
 
@@ -164,6 +206,95 @@ $('.zoompopup7').click(function()
 
 
 
+
+
+    $('.sliderpop5').click(function()
+        {
+            console.log('popup');
+            $('#popupall1').modal('show');
+
+        }
+    );
+
+
+    $('.sliderpop1').click(function()
+        {
+            console.log('popup');
+            $('#popupall2').modal('show');
+
+        }
+    );
+
+
+    $('.sliderpop4').click(function()
+        {
+            console.log('popup');
+            $('#popupall3').modal('show');
+
+        }
+    );
+
+    $('.sliderpop8').click(function()
+        {
+            console.log('popup');
+            $('#popupall4').modal('show');
+
+        }
+    );
+
+
+    $('.sliderpop6').click(function()
+        {
+            console.log('popup');
+            $('#popupall5').modal('show');
+
+        }
+    );
+
+    $('.sliderpop7').click(function()
+        {
+            console.log('popup');
+            $('#popupall6').modal('show');
+
+        }
+    );
+
+    $('.sliderpop2').click(function()
+        {
+            console.log('popup');
+            $('#popupall7').modal('show');
+
+        }
+    );
+
+    $('.sliderpop3').click(function()
+        {
+            console.log('popup');
+            $('#popupall8').modal('show');
+
+        }
+    );
+
+
+
+
+
 });
 
 
+function showmodal1(){
+
+    $('#thankyou_popup').modal('show');
+
+    /*setTimeout(function(){
+        $('#thankyou_popup').modal('hide');
+    },8000);*/
+}
+function showmodal2(){
+
+    $('#thankyou_popup1').modal('show');
+
+    /*setTimeout(function(){
+     $('#thankyou_popup').modal('hide');
+     },8000);*/
+}
