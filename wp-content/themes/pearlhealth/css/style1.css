@@ -1,0 +1,172 @@
+@font-face {
+	font-family: 'Corbel';
+	src: url('../fonts/Corbel-Bold.eot');
+	src: url('../fonts/Corbel-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Corbel-Bold.woff') format('woff'),
+		url('../fonts/Corbel-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Nunito';
+	src: url('../fonts/Nunito-Regular.eot');
+	src: url('../fonts/Nunito-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Nunito-Regular.woff') format('woff'),
+		url('../fonts/Nunito-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Corbel-regular';
+	src: url('../fonts/Corbel.eot');
+	src: url('../fonts/Corbel.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Corbel.woff') format('woff'),
+		url('../fonts/Corbel.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/*---About----*/
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.aboutinnerbanner{background: url("../images/aboutbanner.jpg") no-repeat left top; background-size: cover; min-height: 384px;}
+.innerbannerlogo {margin-left: 3%; margin-top: 20px;}
+
+.innerpagetitle{background:#03b9e6;min-height: 220px; width:100%; padding:21px 0px; text-align:center;}
+.innerpagetitle h2{font-family: 'Corbel'; color:#fff; text-transform:uppercase; font-size:76px; line-height:78px;margin: 0px; padding: 0px;}
+.innerpagetitle h4{font-family: 'Corbel';color: #03657d;text-transform: capitalize;font-size: 35px;line-height: 35px;margin: 0px;padding: 0px;padding-top: 10px;padding-bottom: 10px;}
+.innerpagetitle h5{font-family: 'robotobold'; color:#191919; text-transform:capitalize; font-size:30px; line-height: 36px; margin: 0px; padding: 0px;}
+
+.innerpagetitle .teamh5{font-family: 'robotobold'; color:#191919; text-transform:capitalize; font-size:20px; line-height: 26px; margin: 0px; padding: 0px;}
+
+
+.aboutblock3 .aboutblock3con:nth-of-type(1) {
+    background: #e7e7e7;
+	padding: 40px 24px 30px 40px;
+}
+.aboutblock3 .aboutblock3con:nth-of-type(3) {
+    background: #ede0d7;
+	padding: 40px 24px 30px 40px;
+}
+
+
+.aboutblock3 .aboutblock3con h2{font-family: 'Corbel';color: #000000;text-transform: uppercase;font-size: 30px;line-height: 32px;margin: 0px;padding: 0px; margin-bottom: 10px;}
+.aboutblock3con .textblock{font-family: 'robotoregular'; color: #313131; font-size: 18px;line-height: 30px;margin: 0px;padding: 0px; min-height:158px; overflow:hidden;}
+.aboutblock3 .aboutblock3con {text-align: left; height: 343px; padding: 0px 0px;}
+.aboutblock3 .viewmore {
+	display: block;
+	width: 214px;
+	height: 48px;
+	background: #ff2400;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 34px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-family: 'robotobold';
+	font-size: 18px;
+	cursor: pointer;
+	float: right;
+	margin-top: 0px;
+}
+
+.aboutblock4 .aboutblock4con:nth-of-type(2) {
+    background: #ffffff;
+	padding: 30px;
+}
+
+.aboutblock4 .aboutblock4con {text-align: left; height: 343px; padding: 0px 0px;}
+.aboutblock4 .aboutblock4con h2{font-family: 'Corbel';color: #000000;text-transform: uppercase;font-size: 30px;line-height: 32px;margin: 0px;padding: 0px; margin-bottom: 10px;}
+.aboutblock4con .textblock{font-family: 'robotoregular'; color: #313131; font-size: 18px;line-height: 30px;margin: 0px;padding: 0px; min-height:110px; overflow:hidden;}
+.aboutblock4 ul{ padding-top: 10px;}
+
+
+
+.aboutblock4 ul.list{list-style: disc !important; }
+.aboutblock4 ul li{font-family: 'robotoregular'; color: #000000; font-size: 18px;line-height: 16px;margin: 0px 0 0 20px;padding: 0px; padding-top:16px; list-style: outside}
+
+.aboutblock4 ul li span{ color: #ff2400;}
+
+.aboutblock7{background:#e6e6e6; width:100%; padding:30px 0px;}
+.aboutblock7img{background:#b1b1b1; width:541px; height:284px;padding: 36px;}
+.aboutblock7img img{width:100%;}
+
+.aboutblock7 .aboutblock7con h2{font-family: 'Corbel';color: #000000;text-transform: uppercase;font-size: 30px;line-height: 32px;margin: 0px;padding: 0px; margin-bottom: 40px;}
+.aboutblock7con .textblock{font-family: 'robotoregular'; color: #464646; font-size: 18px;line-height: 25px;margin: 0px;padding: 0px;}
+.aboutblock7con .textblock span{color:#ff2400;}
+
+
+
+/*----*/
+.servicebanner{background: url("../images/servicebanner.jpg") no-repeat left top; background-size: cover; min-height: 384px;}
+
+
+
+
+
+
+/*----*/
+
+.resourcesinnerbanner{background: url("../images/resourcesbanner.jpg") no-repeat left top; background-size: cover; height: 384px; overflow:hidden;}
+
+.resources_container_block .resourcesbottomrow1 h2 {
+    text-align: center;
+    margin: 0;
+    padding: 40px 0;
+    font-family: 'Corbel';
+    text-transform: uppercase;
+    color: #58595a;
+    font-size: 36px;
+}
+.resources_container_block .resourcesbottomrow1 h2 span {
+    color: #ff2400;
+}
+.resources_container_block{ width: 1748px; margin: 0 auto;}
+
+.resourcesbottomrow1 h2{ text-align: center; margin: 0; padding: 0px; font-size: 60px; color: #ff5400; text-transform: uppercase; font-family: 'robotobold';}
+.resourcesbottomrow1 .resourcesbottomrow1_left{ width: 1034px; float: left; border-left: solid 7px #ff2400; padding-left: 45px; font-size: 18px; color: #1d1c1c; line-height: 36px; font-family: 'robotolight';}
+.resourcesbottomrow1 .resourcesbottomrow1_left strong{ font-family: 'robotolight'; color: #ff0000;}
+
+.resourcesbottomrow1 .resourcesbottomrow1_right{ width: 670px; float: right;}
+
+
+
+.resourcesblock3{
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(236,236,236,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(236,236,236,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(236,236,236,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(236,236,236,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(236,236,236,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(236,236,236,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ececec', GradientType=0 ); margin-top: 25px;
+}
+
+.resourcesblock3 .row{ background: url("../images/resourcesBG2.png") no-repeat left bottom; min-height: 512px; width: 100%;}
+
+.resourcesblock3 .resourcesblock3_wrapper{ width: 1748px; margin: 0 auto; padding: 0 0 60px 540px;}
+
+.resourcesblock3 .resourcesblock3_wrapper h2{ margin: 0; padding: 0; font-size: 33px; color: #ff2400; text-transform: uppercase;  font-family: 'Corbel'; padding-top: 80px;}
+
+.resourcesblock3 .resourcesblock3_wrapper h3{ margin: 0; padding: 0; font-size: 20px; color: #111111;  font-family: 'robotoregular'; padding-top: 19px; line-height: 36px;}
+
+
+.resourcesblock3 .resourcesblock3_wrapper h4{ margin: 0; padding: 0; font-size: 18px; color: #1d1c1c;  font-family: 'robotoregular'; padding-top: 10px; line-height: 30px;}
+
+.resourcesblock3 .resourcesblock3_wrapper h4 span{color: #ff2400; }
+
+.resourcesblock3 .resourcesblock3_wrapper .resources_viewmore{ display: block; width: 268px; height: 60px; background: #ff2400; border-radius: 5px; text-align: center; line-height:60px; color: #fff; text-transform: uppercase; letter-spacing: 4px; font-family: 'robotobold'; font-size: 18px; margin-top: 30px;  cursor: pointer; float: right;}
+
+
+.contactbanner{background: url("../images/contactbanner.jpg") no-repeat left top; background-size: cover; min-height: 384px;}
+
+.teambanner{background: url("../images/teambanner.jpg") no-repeat left top; background-size: cover; min-height: 384px;}

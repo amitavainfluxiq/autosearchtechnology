@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="ast">
+  <component name="PublishConfigData" autoUpload="Always" serverName="pearlhealth">
     <serverData>
-      <paths name="ast">
+      <paths name="pearlhealth">
         <serverdata>
           <mappings>
-            <mapping deploy="/public_html/projects/ast" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/public_html/projects/pearlsupportiveliving" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
