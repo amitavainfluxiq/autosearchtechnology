@@ -5,7 +5,7 @@
 
 @media(max-width:1840px) {
     .team_block1 .team1block_wrapper{ padding-left: 380px;}
-
+    .innerpagetitle .homeh3{ font-size: 46px;}
 }
 
 @media(max-width:1820px) {
@@ -20,7 +20,7 @@
 
 @media(max-width:1740px) {
     .team_block1 .team1block_wrapper{ padding-left: 260px;}
-
+    .innerpagetitle .homeh3{ font-size: 40px; padding: 9px 0 0 0;}
 }
 
 
@@ -31,7 +31,7 @@
 
 @media(max-width:1680px) {
     .team_block1 .team1block_wrapper{ padding-left: 200px;}
-
+    .innerpagetitle{ padding: 21px 0 19px 0;}
 }
 
 
@@ -39,8 +39,8 @@
     .team_block1 .team1block_wrapper .team_block1_left{ width: 400px;}
 
 
-    .team_block1 .team1block_wrapper .team_block1_right{ min-height: inherit;}
-    .team_block1 .team1block_wrapper .team_block1_right h4{ margin: 0; padding:75px 0 0 0;}
+
+
 }
 
 
@@ -56,47 +56,42 @@
 
 
 @media(max-width:1550px) {
-    .team_block1 .team1block_wrapper .team_block1_left{ width: 300px;}
-
-}
 
 
-@media(max-width:1450px) {
-    .team_block1 .team1block_wrapper .team_block1_right{ width: 900px; }
+    .innerpagetitle{ min-height: inherit;
+        padding: 21px 0 18px;}
 
-}
+    .team_block1 .team1block_wrapper{ padding-left: 0px; width: 1280px;  margin: 0 auto;}
+
+    .team_block1 .team1block_wrapper .team_block1_left{ width: 300px; height: auto; background: none; border:none;}
+
+    .team_block1 .team1block_wrapper .team_block1_left img{ width: 100%; border:solid 1px #a5a5a5; background: #ededed;}
+
+    .teamblock_con_main h2{ font-size: 15px;}
+
+    }
 
 
-@media(max-width:1400px) {
-    .team_block1 .team1block_wrapper .team_block1_right{ width: 860px; }
-    .team_block1 .team1block_wrapper .team_block1_right{ padding: 40px;}
-}
+
 
 @media(max-width:1360px) {
-    .team_block1 .team1block_wrapper .team_block1_right{ width: 800px; }
 
+    .innerpagetitle .homeh3{ font-size: 34px;}
 }
 
-@media(max-width:1320px) {
-    .team_block1 .team1block_wrapper .team_block1_right{ width: 780px; }
 
-}
 
 
 
 @media(max-width:1280px) {
-    .team_block1 .team1block_wrapper{ padding-left:130px;}
 
 
+    .innerpagetitle .homeh3{ padding: 0px;}
 }
 
 
 
-@media(max-width:1240px) {
-    .team_block1 .team1block_wrapper{ padding-left:100px;}
 
-
-}
 
 
 
@@ -119,31 +114,25 @@
 }
 
 
-@media(max-width:1280px) {
-
-    .home_container_block{ width: 1080px; margin: 0 auto;}
-    .home_bottom_block .homebottomrow1 .homebottomrow1_left{width: 600px;}
-
-}
 
 @media(max-width:1199px) {
 
     .team_block1 .carousel-indicators{ text-align: center; margin: 25px 0 0 0;}
     .team_block1 .team1block_wrapper .team_block1_right{ padding: 40px 20px; text-align: center;}
 
-    .team_block1 .team1block_wrapper .team_block1_right h2{ padding-top: 10px;}
-    .team_block1 .team1block_wrapper .team_block1_right h4{ padding-top: 40px; height: auto;}
-    .team_block1btn{ float: none; margin: 0 auto; margin-top: 25px;}
+    .team_block1 .team1block_wrapper .team_block1_right h2{ padding-top: 0px;}
+    .team_block1 .team1block_wrapper .team_block1_right h4{ padding-top: 20px; height: auto; min-height: inherit;}
+    .team_block1btn{ float: none; margin: 0 auto; margin-top: 25px; position: inherit; left: 0; bottom: 0;}
 
 
-        .team_block1 .team1block_wrapper{ padding-left:0px;}
+        .team_block1 .team1block_wrapper{ padding-left:0px; width: 90%; margin: 0 auto;}
 
-    .team_block1 .team1block_wrapper .team_block1_left{ width: 100%; float: none; border: none; padding:20px 25px 25px  25px; background: none;}
+    .team_block1 .team1block_wrapper .team_block1_left{ width: 100%; float: none; border: none; padding:20px 25px 25px  25px; background: none; height: auto;}
 
     .team_block1 .team1block_wrapper .team_block1_left img{ width: auto; display: block; margin: 0 auto; max-width: 100%; border:solid 1px #a5a5a5; }
 
 
-    .team_block1 .team1block_wrapper .team_block1_right{ width: 100%; float: none; border:solid 1px #dedede; background: #ededed; border-right: solid 1px #dedede;}
+    .team_block1 .team1block_wrapper .team_block1_right{ width: 100%; float: none; border:solid 1px #dedede; background: #ededed; border-right: solid 1px #dedede; padding-bottom: 20px;}
 
 
 
@@ -241,7 +230,7 @@
 
         font-weight:bold;
 
-        padding:6px 0 0 15px; float:left;}
+        padding:8px 0 0 15px; float:left;}
 
 
 
@@ -288,7 +277,9 @@
 
 @media(max-width:991px) {
 
-    .footertopcon:nth-child(2){ margin: 35px 0;}
+    .teamblock_con_main h2{ font-size: 22px;}
+    .innerpagetitle .homeh3{ padding:10px 5px 0 5px;}
+    .footertopcon:nth-child(2){ margin: 25px 0;}
 
     .homeblock2 .homeblock2con{ text-align: center; height: auto; padding: 30px 30px;}
 

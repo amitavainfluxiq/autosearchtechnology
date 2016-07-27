@@ -465,7 +465,7 @@ p{ margin:0; padding:0;}
 
 
 
-.footermenu{ padding: 0; width: 700px; float: left;}
+.footermenu{ padding: 0; width: 770px; float: left;}
 
 
 
@@ -510,10 +510,10 @@ p{ margin:0; padding:0;}
 
 .footercopyright{ padding:0; width: 260px; float: right; text-align: right; color:#000;  font-family:'OpenSans-Semibold';  font-size:14px; font-weight: bold;  }
 
-.footertopblock{ margin: 66px auto; text-align: center;  font-family: 'Corbel'; font-size: 14px; color: #292929; line-height: 26px;}
+.footertopblock{ margin: 30px auto; text-align: center;  font-family: 'Corbel'; font-size: 14px; color: #292929; line-height: 26px;}
 .footertopblock img{ margin: 0 6px;}
 
-.footertopblock h2{ margin: 0; padding: 0 0 24px 0; font-family: 'Corbel'; text-transform: uppercase; color: #000; font-size: 14px; letter-spacing: 4px;}
+.footertopblock h2{ margin: 0; padding: 20px 0 24px 0; font-family: 'Corbel'; text-transform: uppercase; color: #000; font-size: 14px; letter-spacing: 4px;}
 
 .footertopcon .footerlogo{ max-width: 90%;}
 
@@ -557,10 +557,24 @@ p{ margin:0; padding:0;}
     font-size: 48px;
     line-height: 48px;
     margin: 0;
-    padding: 12px 0 15px 0;
+    padding: 0;
     text-transform: uppercase;
 }
 
+
+.innerpagetitle .homeh3 {
+    color: #fff;
+    font-family: 'robotobold';
+    font-size: 48px;
+    line-height: 51px;
+    margin: 0;
+    padding: 8px 0 0 0;
+    text-transform: uppercase;
+}
+
+.innerpagetitle .homeh3 label{ font-size: 26px;}
+
+.innerpagetitle .homeh3 span{ font-size: 50px;}
 
 .home_bottom_block{ background: #fff url("../images/homebottombg.jpg") no-repeat right bottom; min-height: 1412px;}
 .home_container_block{ width: 1500px; margin: 0 auto;}
@@ -709,20 +723,22 @@ p{ margin:0; padding:0;}
 
 .team_block1 .team1block_wrapper{ padding-left: 430px;}
 
-.team_block1 .team1block_wrapper .team_block1_left{ width: 460px; float: left; border:solid 1px #a5a5a5; background: #ededed; height: 640px;}
-.team_block1 .team1block_wrapper .team_block1_left img{ width: 100%;  }
+.team_block1 .team1block_wrapper .team_block1_left{ width: 460px; float: left;  height: 770px;   border:solid 1px #a5a5a5; background: #ededed; overflow: hidden;}
 
-.team_block1 .team1block_wrapper .team_block1_right{ width: 970px; height: 640px; float: right; border:solid 1px #dedede; background: #ededed; border-right: none; padding: 40px 330px 40px 40px;}
 
-.team_block1 .team1block_wrapper .team_block1_right h2{ margin: 0; padding: 0; font-size: 48px; color: #4b4b4b; text-transform: uppercase; font-family: 'Corbel'; padding-top: 40px;}
+.team_block1 .team1block_wrapper .team_block1_left img{ width: 100%;   }
+
+.team_block1 .team1block_wrapper .team_block1_right{ width: 970px;  float: right; border:solid 1px #dedede; background: #ededed; border-right: none; padding: 20px;  position: relative;}
+
+.team_block1 .team1block_wrapper .team_block1_right h2{ margin: 0; padding: 0; font-size: 48px; color: #4b4b4b; text-transform: uppercase; font-family: 'Corbel'; padding-top: 0px;}
 
 .team_block1 .team1block_wrapper .team_block1_right h2 span{ color: #ff2400;}
 
 .team_block1 .team1block_wrapper .team_block1_right h3{ margin: 0; padding:0; font-size: 18px; color: #767676; font-family: 'Corbel';}
 
-.team_block1 .team1block_wrapper .team_block1_right h4{ margin: 0; padding:120px 0 0 0; font-size: 16px; color: #3f3c3c; font-family: 'Corbel-regular'; text-transform: uppercase; line-height: 25px; height: 300px; overflow: hidden;}
+.team_block1 .team1block_wrapper .team_block1_right h4{ margin: 0; padding:20px 0 0px 0; font-size: 16px; color: #3f3c3c; font-family: 'Corbel-regular'; text-transform: uppercase; line-height: 25px; min-height:555px;  }
 
-
+.team_block1 .team1block_wrapper .team_block1_right h4 p{ padding-bottom: 15px;}
 .team_block1 .team1block_wrapper .team_block1_right h5{ margin: 0; padding:20px 0 0 0; font-size: 16px; color: #525252; font-family: 'Corbel-regular'; font-style: italic;  line-height: 25px;}
 
 
@@ -735,11 +751,11 @@ p{ margin:0; padding:0;}
     font-size: 18px;
     height: 60px;
     letter-spacing: 4px;
-    line-height:58px; float: right;; margin-top: 55px;
+    line-height:58px;
 
     text-align: center;
     text-transform: uppercase;
-    width: 268px;}
+    width: 268px; float: right;  margin-top: 20px; margin-bottom: 20px;}
 
 
 
@@ -757,7 +773,7 @@ p{ margin:0; padding:0;}
 
 .teamblock_con_main{ width: 100%; padding: 0 5px; position: relative; z-index: 99; font-size: 18px; color: #5a5a5a; font-style: italic; font-family: 'Corbel-regular'; text-align: center; }
 
-.teamblock_con_main h2{ text-align: center; font-size: 36px; color: #fff; text-transform: uppercase; margin: 0; padding:26px 5px;  font-family: 'Corbel';}
+.teamblock_con_main h2{ text-align: center; font-size: 26px; color: #fff; text-transform: uppercase; margin: 0; padding:26px 5px;  font-family: 'Corbel';}
 
 .teamimg{background: rgba(254,254,254,1);
     background: -moz-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(130,130,130,1) 100%);
@@ -786,7 +802,7 @@ p{ margin:0; padding:0;}
 
 .teamblock_con_main .sociallinks a{ cursor: pointer;}
 
-.teamblock_con_main .btnmore { display: block; width: 168px; height: 37px; border: none; border-radius: 4px; cursor: pointer; border: none; margin: 0 auto; margin-bottom: 15px; font-size: 14px; color: #fff; text-transform: uppercase; letter-spacing: 3px;  font-family: 'robotobold';   line-height: 23px; font-style: normal;}
+.teamblock_con_main .btnmore { display: block; width: 168px; height: 37px; border: none; border-radius: 4px; cursor: pointer; border: none; margin: 15px auto; margin-bottom: 15px; font-size: 14px; color: #fff; text-transform: uppercase; letter-spacing: 3px;  font-family: 'robotobold';   line-height: 23px; font-style: normal;}
 
 
 .team_block2 .teamblock_con:nth-of-type(1) .btnmore{ background: #03b9e6;}

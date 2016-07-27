@@ -39,6 +39,7 @@
               $ic=0;
               foreach ($pages as $page) :
 
+                  if($page->ID!=147){
 
 
                   $args2 = array(
@@ -90,8 +91,9 @@
 
                   $ic++;
 
-
+                  }
               endforeach;
+
           }
           ?>
 

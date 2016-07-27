@@ -40,10 +40,10 @@
 .aboutinnerbanner{background: url("../images/aboutbanner.jpg") no-repeat left top; background-size: cover; min-height: 384px;}
 .innerbannerlogo {margin-left: 3%; margin-top: 20px;}
 
-.innerpagetitle{background:#03b9e6;min-height: 220px; width:100%; padding:21px 0px; text-align:center;}
-.innerpagetitle h2{font-family: 'Corbel'; color:#fff; text-transform:uppercase; font-size:76px; line-height:78px;margin: 0px; padding: 0px;}
+.innerpagetitle{background:#03b9e6;min-height:214px; width:100%; padding:20px 0px 16px 0; text-align:center;}
+.innerpagetitle h2{font-family: 'Corbel'; color:#fff; text-transform:uppercase; font-size:76px; line-height:70px;margin: 0px; padding: 6px 0 0 0;}
 .innerpagetitle h4{font-family: 'Corbel';color: #03657d;text-transform: capitalize;font-size: 35px;line-height: 35px;margin: 0px;padding: 0px;padding-top: 10px;padding-bottom: 10px;}
-.innerpagetitle h5{font-family: 'robotobold'; color:#191919; text-transform:capitalize; font-size:30px; line-height: 36px; margin: 0px; padding: 0px;}
+.innerpagetitle h5{font-family: 'robotobold'; color:#191919; text-transform:capitalize; font-size:30px; line-height: 44px; margin: 0px; padding: 0px;}
 
 .innerpagetitle .teamh5{font-family: 'robotobold'; color:#191919; text-transform:capitalize; font-size:20px; line-height: 26px; margin: 0px; padding: 0px;}
 
@@ -172,3 +172,6 @@
 .teambanner{background: url("../images/teambanner.jpg") no-repeat left top; background-size: cover; min-height: 384px;}
 
 .thankyoubanner{background: url("../images/thankyoubanner.jpg") no-repeat left top; background-size: cover; min-height: 384px;}
+
+
+

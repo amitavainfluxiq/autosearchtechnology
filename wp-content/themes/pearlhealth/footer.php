@@ -60,6 +60,7 @@
             foreach ($pages as $page) :
 
 
+                if($page->ID!=147){
 
                 $args2 = array(
                     'sort_column' => 'post_date',
@@ -106,6 +107,7 @@
                 echo "</li>";
 
                 $ic++;
+                }
 
 
             endforeach;

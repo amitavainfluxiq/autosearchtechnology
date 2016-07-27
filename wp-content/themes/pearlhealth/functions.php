@@ -228,7 +228,7 @@ function wp_teamslider() {
             //print_r($pic);
             //print_r($postimg);
             if($postimg== NULL){
-                $postimg='http://ast.influxiq.com/wp-content/themes/pearlhealth/images/logo.png';
+                $postimg='/wp-content/themes/pearlhealth/images/team_demo_logo2.png';
 
             }
             else $postimg="/wp-content/uploads/".$postimg;
@@ -384,7 +384,7 @@ function wp_teamlist() {
             //print_r($pic);
             //print_r($postimg);
             if($postimg== NULL){
-                $postimg='http://ast.influxiq.com/wp-content/themes/pearlhealth/images/logo.png';
+                $postimg='/wp-content/themes/pearlhealth/images/team_demo_logo.png';
 
             }
             else $postimg="/wp-content/uploads/".$postimg;
@@ -446,15 +446,15 @@ function wp_teamlist() {
    <img src="'.$postimg.'">
  </div>
  <p>'.$designation[0].'</p>
- <div class="sociallinks">
+  <!--<div class="sociallinks">
 
-    	<a target="_blank" href="'.$fb[0].'" >  <img src="../wp-content/themes/pearlhealth/images/icon_f.png"></a>
-      <a target="_blank" href="'.$twitter[0].'">  <img src="../wp-content/themes/pearlhealth/images/icon_t.png"></a>
-       	<a target="_blank" href="'.$instagram[0].'">   <img src="../wp-content/themes/pearlhealth/images/icon_i.png"></a>
+    	 <a target="_blank" href="'.$fb[0].'" >  <img src="../wp-content/themes/pearlhealth/images/icon_f.png"></a>
+     <a target="_blank" href="'.$twitter[0].'">  <img src="../wp-content/themes/pearlhealth/images/icon_t.png"></a>
+      	<a target="_blank" href="'.$instagram[0].'">   <img src="../wp-content/themes/pearlhealth/images/icon_i.png"></a>
 
- </div>
+ </div>-->
 
- <a class="btn btn-default btnmore btnblue">Know More</a>
+ <a class="btn btn-default btnmore btnblue">View Bio</a>
  </div>
  </div>';
 
