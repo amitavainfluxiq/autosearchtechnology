@@ -231,7 +231,7 @@ function wp_teamslider() {
                 $postimg='http://ast.influxiq.com/wp-content/themes/pearlhealth/images/logo.png';
 
             }
-            else $postimg="/pearlhealth/wp-content/uploads/".$postimg;
+            else $postimg="/wp-content/uploads/".$postimg;
             //var_dump(get_post_meta( 424 ));
 
             /*echo '<pre>';
@@ -387,7 +387,7 @@ function wp_teamlist() {
                 $postimg='http://ast.influxiq.com/wp-content/themes/pearlhealth/images/logo.png';
 
             }
-            else $postimg="/pearlhealth/wp-content/uploads/".$postimg;
+            else $postimg="/wp-content/uploads/".$postimg;
             //var_dump(get_post_meta( 424 ));
 
             /*echo '<pre>';
@@ -454,7 +454,7 @@ function wp_teamlist() {
 
  </div>
 
- <a class="btn btn-default btnmore btnblue">Knaw More</a>
+ <a class="btn btn-default btnmore btnblue">Know More</a>
  </div>
  </div>';
 

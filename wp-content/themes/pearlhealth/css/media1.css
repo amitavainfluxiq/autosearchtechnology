@@ -41,6 +41,10 @@
         background: rgba(0, 0, 0, 0) url("../images/teambanner.jpg") no-repeat scroll -136px top;
     }
 
+  .thankyoubanner {
+        background: rgba(0, 0, 0, 0) url("../images/thankyoubanner.jpg") no-repeat scroll -136px top;
+    }
+
 
 
     .resourcesinnerbanner {
@@ -79,6 +83,9 @@
 	    .teambanner {
         background: rgba(0, 0, 0, 0) url("../images/teambanner.jpg") no-repeat scroll -150px top;
     }
+    .thankyoubanner {
+        background: rgba(0, 0, 0, 0) url("../images/thankyoubanner.jpg") no-repeat scroll -150px top;
+    }
 
 	.resourcesinnerbanner {
 		background: rgba(0, 0, 0, 0) url("../images/resourcesbanner.jpg") no-repeat scroll -150px top;
@@ -103,6 +110,10 @@
 
         .teambanner {
         background: rgba(0, 0, 0, 0) url("../images/teambanner.jpg") no-repeat scroll -260px top;
+    }
+
+        .thankyoubanner {
+        background: rgba(0, 0, 0, 0) url("../images/thankyoubanner.jpg") no-repeat scroll -260px top;
     }
 
 
@@ -162,6 +173,9 @@
 
 	    .teambanner {
         background: rgba(0, 0, 0, 0) url("../images/teambanner.jpg") no-repeat scroll -340px top;
+    }
+	    .thankyoubanner {
+        background: rgba(0, 0, 0, 0) url("../images/thankyoubanner.jpg") no-repeat scroll -340px top;
     }
 
 	.resourcesinnerbanner {
@@ -379,6 +393,13 @@
         padding-top: 199px;
         height:auto;
     }
+    .thankyoubanner {
+        background: url("../images/thankyoubanner.jpg") no-repeat 0px top;
+        background-size: 990px;
+        min-height: inherit;
+        padding-top: 199px;
+        height:auto;
+    }
 
 
 	
@@ -414,6 +435,12 @@
 
     .teambanner {
         background: url("../images/teambanner.jpg") no-repeat -320px top;
+        min-height: inherit;
+        background-size: 990px;
+    }
+
+    .thankyoubanner {
+        background: url("../images/thankyoubanner.jpg") no-repeat -320px top;
         min-height: inherit;
         background-size: 990px;
     }

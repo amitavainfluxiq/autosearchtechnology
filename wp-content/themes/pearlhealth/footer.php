@@ -19,7 +19,7 @@
         <a href="javascript:void(0)"><img src="<?php /*echo get_template_directory_uri(); */?>/images/sicon4.png" alt=""> </a>-->
 
 
-       <img src="<?php echo get_template_directory_uri(); ?>/images/logo2.png" alt="" class="footerlogo">
+      <a href="/"> <img src="<?php echo get_template_directory_uri(); ?>/images/logo2.png" alt="" class="footerlogo"></a>
 
     </div>
 

@@ -10,9 +10,12 @@ $(document).ready(function(){
 
 
 
-        alert($(this).index());
+        //alert($('.btnblue').index(this));
+        $('.carousel').carousel($('.btnblue').index(this));
+        //scrolltotop
 
-
+        $('html, body').animate({scrollTop:$('#myCarousel').offset().top}, 'slow');
+        return false;
 
     });
 

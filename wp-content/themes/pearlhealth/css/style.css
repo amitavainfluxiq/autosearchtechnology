@@ -662,9 +662,14 @@ p{ margin:0; padding:0;}
 
 .innerformwrapper h4 a{ color: #ff2400; margin-right: 140px;}
 
-.innerformwrapper .formcontrol{ width: 48%; float: left; margin-right: 2%; height: 46px; border: solid 1px #dddad7; font-size: 14px; color: #373838;  font-family:'OpenSans-Semibold'; margin-bottom: 14px; padding: 0 20px;}
+.innerformwrapper .formcontrol{ width: 48%; float: left; margin-right: 2%; height: 80px; margin-bottom: 4px;}
 
-.innerformwrapper .formcontro2{ width: 98%; float: left; height: 146px; border: solid 1px #dddad7; font-size: 14px; color: #373838;  font-family:'OpenSans-Semibold'; margin-bottom: 45px; padding:  20px; resize: none; }
+.innerformwrapper .formcontrol input { width: 100%;  height: 46px;  border: solid 1px #dddad7; font-size: 14px; color: #373838;  font-family:'OpenSans-Semibold';  padding: 0 20px;}
+
+
+.innerformwrapper .formcontrol2{ width: 98%; float: left; margin-bottom: 45px;  }
+
+.innerformwrapper .formcontrol2 textarea{ width: 100%;  height: 146px;  border: solid 1px #dddad7; font-size: 14px; color: #373838;  font-family:'OpenSans-Semibold';  padding: 20px;}
 
 .innerformwrapper ::-webkit-input-placeholder {
     color: #373838; opacity:1;
@@ -799,3 +804,17 @@ p{ margin:0; padding:0;}
     margin: 0;
     width: 10px;
 }
+
+.innerformwrapper .screen-reader-response{ display: none;}
+
+.wpcf7-not-valid-tip{ color: #ff0000; display: block; padding-top: 4px;}
+
+.innerformwrapper .wpcf7-validation-errors{ display: none;}
+
+.thankyouwrapper{ text-align: center; padding:100px 25px; background: #ece9e6;}
+
+.thankyouwrapper h2{ margin: 0; padding: 0;  font-family: 'Corbel'; font-size: 36px; color: #ff2400;}
+
+.thankyouwrapper h2:after{ content: ''; width: 100px; height:2px; background:#ff2400; display: block; margin: 10px auto; }
+
+.thankyouwrapper h3{ margin: 0; padding: 0;  font-family: 'Corbel'; font-size: 26px; color: #333;}

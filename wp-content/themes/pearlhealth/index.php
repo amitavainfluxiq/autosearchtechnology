@@ -16,6 +16,16 @@
     <link href="<?php echo get_template_directory_uri(); ?>/css/style1.css" type="text/css" rel="stylesheet" />
     <link href="<?php echo get_template_directory_uri(); ?>/css/media1.css" type="text/css" rel="stylesheet" />
 
+
+    <script type='text/javascript' src='/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.40.0-2013.08.13'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var _wpcf7 = {"loaderUrl":"\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.5.2'></script>
+
+
 </head>
 <body>
 
