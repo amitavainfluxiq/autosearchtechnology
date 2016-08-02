@@ -726,7 +726,7 @@ p{ margin:0; padding:0;}
 .team_block1 .team1block_wrapper .team_block1_left{ width: 460px; float: left;  height: 770px;   border:solid 1px #a5a5a5; background: #ededed; overflow: hidden;}
 
 
-.team_block1 .team1block_wrapper .team_block1_left img{ width: 100%;   }
+.team_block1 .team1block_wrapper .team_block1_left img{ max-width: 100%;   }
 
 .team_block1 .team1block_wrapper .team_block1_right{ width: 970px;  float: right; border:solid 1px #dedede; background: #ededed; border-right: none; padding: 20px;  position: relative;}
 
@@ -736,7 +736,7 @@ p{ margin:0; padding:0;}
 
 .team_block1 .team1block_wrapper .team_block1_right h3{ margin: 0; padding:0; font-size: 18px; color: #767676; font-family: 'Corbel';}
 
-.team_block1 .team1block_wrapper .team_block1_right h4{ margin: 0; padding:20px 0 0px 0; font-size: 16px; color: #3f3c3c; font-family: 'Corbel-regular'; text-transform: uppercase; line-height: 25px; min-height:555px;  }
+.team_block1 .team1block_wrapper .team_block1_right h4{ margin: 0; padding:20px 0 0px 0; font-size: 16px; color: #3f3c3c; font-family: 'Corbel-regular';  line-height: 25px; min-height:555px;  }
 
 .team_block1 .team1block_wrapper .team_block1_right h4 p{ padding-bottom: 15px;}
 .team_block1 .team1block_wrapper .team_block1_right h5{ margin: 0; padding:20px 0 0 0; font-size: 16px; color: #525252; font-family: 'Corbel-regular'; font-style: italic;  line-height: 25px;}
@@ -834,3 +834,43 @@ p{ margin:0; padding:0;}
 .thankyouwrapper h2:after{ content: ''; width: 100px; height:2px; background:#ff2400; display: block; margin: 10px auto; }
 
 .thankyouwrapper h3{ margin: 0; padding: 0;  font-family: 'Corbel'; font-size: 26px; color: #333;}
+
+
+.resources_bannerheading{ background: #03b9e6; padding: 20px 0;}
+
+.resources_bannerheading .resources_tablebody{ width:1440px; margin: 0 auto;}
+
+.resources_bannerheading .resources_tablebody img{ display: block; margin: 0 auto;}
+
+.resources_bannerheading .resources_tablebody h2{ margin: 0;  line-height: 60px; margin: 0; padding: 0 5px 12px; font-size: 72px; color: #ffffff; text-transform: uppercase; font-family: 'Corbel';}
+
+.resources_bannerheading .resources_tablebody h3{ font-size: 30px; color: #181717; font-family: 'robotobold'; line-height: 36px;  margin: 0; padding: 0 20px 7px 20px;}
+
+
+
+.services_bannerheading{ background: #03b9e6; padding: 40px 0;}
+
+.services_bannerheading .services_tablebody{ width:1440px; margin: 0 auto;}
+
+.services_bannerheading .services_tablebody img{ display: block; margin: 0 auto;}
+
+.services_bannerheading .services_tablebody h2{ margin: 0;  line-height:60px; margin: 0; padding: 0 5px 12px; font-size: 72px; color: #ffffff; text-transform: uppercase; font-family: 'Corbel';}
+
+.services_bannerheading .services_tablebody h3{ font-size: 30px; color: #181717; font-family: 'robotobold'; line-height: 36px;  margin: 0; padding: 0 20px 7px 20px;}
+
+
+
+.contact_bannerheading{ background: #03b9e6; padding: 20px 0;}
+
+.contact_bannerheading .contact_tablebody{ width:1440px; margin: 0 auto;}
+
+.contact_bannerheading .contact_tablebody img{ display: block; margin: 0 auto;}
+
+.contact_bannerheading .contact_tablebody h2{ margin: 0;  line-height:60px; margin: 0; padding: 0 5px 12px; font-size: 72px; color: #ffffff; text-transform: uppercase; font-family: 'Corbel';}
+
+.contact_bannerheading .contact_tablebody h3{ font-size: 30px; color: #181717; font-family: 'robotobold'; line-height: 36px;  margin: 0; padding: 0 20px 7px 20px;}
+
+.contact_bannerheading .contact_tablebody h4{ font-size: 35px; color: #007e9d; font-family: 'robotobold'; line-height: 36px;  margin: 0; padding: 0 20px 14px 20px;}
+
+
+.team_block1_left img{ min-width: 90%;}

@@ -228,7 +228,7 @@ function wp_teamslider() {
             //print_r($pic);
             //print_r($postimg);
             if($postimg== NULL){
-                $postimg='/wp-content/themes/pearlhealth/images/team_demo_logo2.png';
+                $postimg='/wp-content/themes/pearlhealth/images/logo2.png';
 
             }
             else $postimg="/wp-content/uploads/".$postimg;
@@ -257,7 +257,16 @@ function wp_teamslider() {
             if($i==0){
             $string.=' <div class="item active">
      <div class="team_block1row">
-       <div class="team_block1_left">  <img src="'.$postimg.'" alt="teamimg1"></div>
+       <div class="team_block1_left">
+       <table width="100%" border="0" cellspacing="0" cellpadding="0" style="width:100%; height:100%;">
+     <tr>
+    <td align="center" valign="middle">
+       <img src="'.$postimg.'" alt="teamimg1">
+       </td>
+  </tr>
+</table>
+
+       </div>
 
          <div class="team_block1_right">
           <h2>'. get_the_title() .'</h2>
@@ -283,7 +292,17 @@ function wp_teamslider() {
 
                 $string.=' <div class="item ">
      <div class="team_block1row">
-       <div class="team_block1_left">  <img src="'.$postimg.'" alt="teamimg1"></div>
+       <div class="team_block1_left">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="width:100%; height:100%;">
+  <tr>
+    <td align="center" valign="middle">
+
+        <img src="'.$postimg.'" alt="teamimg1">
+        </td>
+  </tr>
+</table>
+
+        </div>
 
          <div class="team_block1_right">
           <h2>'. get_the_title() .'</h2>
