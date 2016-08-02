@@ -52,7 +52,7 @@
 	}
 	
 	.aboutblock4 .aboutblock4con:nth-of-type(1) img {
-    margin-left: -50px;
+    margin-left: -80px;
 }
 .innerbannerlogo {
     margin-left: 1%;
@@ -136,6 +136,12 @@
     .aboutblock4 .aboutblock4con {height: 343px; }
 }
 
+
+@media(max-width:1380px) {
+.aboutblock4 .aboutblock4con:nth-of-type(1) img {
+    margin-left: -136px;}
+}
+
 @media(max-width:1280px) {
 
     .resources_container_block{ width: 1080px; margin: 0 auto;}
@@ -147,9 +153,7 @@
 
 
 @media(max-width:1199px) {
-    .aboutblock4 .aboutblock4con:nth-of-type(1) img {
-        margin-left: -240px;
-    }
+
     .aboutblock4 ul li {
         padding-top: 8px;
     }
@@ -276,7 +280,7 @@
 
     .aboutblock4 ul{ padding-bottom: 25px;}
 .aboutblock3 .viewmore {
-    margin-top: 28px;
+    margin-top: 0px;
 }
 .aboutblock4 .aboutblock4con:nth-of-type(1) img {
     margin-left: -275px;

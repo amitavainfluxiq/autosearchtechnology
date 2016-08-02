@@ -59,7 +59,7 @@
 
 
 .aboutblock3 .aboutblock3con h2{font-family: 'Corbel';color: #000000;text-transform: uppercase;font-size: 30px;line-height: 32px;margin: 0px;padding: 0px; margin-bottom: 10px;}
-.aboutblock3con .textblock{font-family: 'robotoregular'; color: #313131; font-size: 18px;line-height: 30px;margin: 0px;padding: 0px; min-height:158px; overflow:hidden;}
+.aboutblock3con .textblock{font-family: 'robotolight'; color: #313131; font-size: 18px;line-height: 36px;margin: 0px;padding: 0px; min-height:158px; overflow:hidden;}
 .aboutblock3 .aboutblock3con {text-align: left; height: 343px; padding: 0px 0px;}
 .aboutblock3 .viewmore {
 	display: block;
@@ -86,13 +86,13 @@
 
 .aboutblock4 .aboutblock4con {text-align: left; height: 343px; padding: 0px 0px;}
 .aboutblock4 .aboutblock4con h2{font-family: 'Corbel';color: #000000;text-transform: uppercase;font-size: 30px;line-height: 32px;margin: 0px;padding: 0px; margin-bottom: 10px;}
-.aboutblock4con .textblock{font-family: 'robotoregular'; color: #313131; font-size: 18px;line-height: 30px;margin: 0px;padding: 0px; min-height:110px; overflow:hidden;}
+.aboutblock4con .textblock{font-family: 'robotolight'; color: #313131; font-size: 18px;line-height: 36px;margin: 0px;padding: 0px; min-height:110px; overflow:hidden;}
 .aboutblock4 ul{ padding-top: 10px;}
 
 
 
 .aboutblock4 ul.list{list-style: disc !important; }
-.aboutblock4 ul li{font-family: 'robotoregular'; color: #000000; font-size: 18px;line-height: 16px;margin: 0px 0 0 20px;padding: 0px; padding-top:16px; list-style: outside}
+.aboutblock4 ul li{font-family: 'robotolight'; color: #000000; font-size: 18px;line-height: 16px;margin: 0px 0 0 20px;padding: 0px; padding-top:16px; list-style: outside}
 
 .aboutblock4 ul li span{ color: #ff2400;}
 
@@ -157,10 +157,10 @@
 
 .resourcesblock3 .resourcesblock3_wrapper h2{ margin: 0; padding: 0; font-size: 33px; color: #ff2400; text-transform: uppercase;  font-family: 'Corbel'; padding-top: 80px;}
 
-.resourcesblock3 .resourcesblock3_wrapper h3{ margin: 0; padding: 0; font-size: 20px; color: #111111;  font-family: 'robotoregular'; padding-top: 19px; line-height: 36px;}
+.resourcesblock3 .resourcesblock3_wrapper h3{ margin: 0; padding: 0; font-size: 20px; color: #111111;  font-family: "robotolight"; padding-top: 19px; line-height: 36px;}
 
 
-.resourcesblock3 .resourcesblock3_wrapper h4{ margin: 0; padding: 0; font-size: 18px; color: #1d1c1c;  font-family: 'robotoregular'; padding-top: 10px; line-height: 30px;}
+.resourcesblock3 .resourcesblock3_wrapper h4{ margin: 0; padding: 0; font-size: 18px; color: #1d1c1c;  font-family: "robotolight"; padding-top: 10px; line-height: 36px;}
 
 .resourcesblock3 .resourcesblock3_wrapper h4 span{color: #ff2400; }
 

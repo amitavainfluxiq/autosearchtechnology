@@ -73,9 +73,11 @@
 
     .team_block1 .team1block_wrapper{ padding-left: 0px; width: 1280px;  margin: 0 auto;}
 
-    .team_block1 .team1block_wrapper .team_block1_left{ width: 300px; height: auto; background: none; border:none;}
+    .team_block1 .team1block_wrapper .team_block1_left{ width: 300px;   }
 
-    .team_block1 .team1block_wrapper .team_block1_left img{ width: 100%; border:solid 1px #a5a5a5; background: #ededed;}
+
+
+    .team_block1 .team1block_wrapper .team_block1_left img{ width: 96%; display: block; margin: 0 auto; }
 
     .teamblock_con_main h2{ font-size: 15px;}
 
@@ -92,6 +94,11 @@
 
     .contact_bannerheading .contact_tablebody{ width:90%; margin: 0 auto;}
 
+
+
+    .aboutblock4 .aboutblock4con:nth-of-type(1) img {
+        margin-left: -200px;
+    }
 }
 
 
@@ -138,6 +145,94 @@
 
 @media(max-width:1199px) {
 
+    .innerpagetitleleft{ display: block;  float: none; width: 100%;}
+
+    .innerpagetitleright{ display: block;  float: none; width: 100%;}
+
+    .innerpagetitlemiddle{ float: none; width: 100%;}
+    .aboutblock3con{ width: 100%; }
+    .aboutblock4con{ width: 100%;}
+
+    .aboutblock4con h2{ padding-top: 25px!important;}
+
+    .aboutblock3con .textblock{ min-height: inherit;}
+
+    .aboutblock4 ul{ padding-bottom: 25px;}
+    .aboutblock3 .viewmore {
+        margin-top: 0px;
+    }
+    .aboutblock4 .aboutblock4con:nth-of-type(1) img {
+        margin-left: -275px;
+    }
+
+    .aboutblock3 .aboutblock3con {
+        text-align: center;
+        height: auto;
+        padding: 0px 0px;
+    }
+    .aboutblock3 .viewmore {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .aboutblock3con .textblock {
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .aboutblock3 .aboutblock3con:nth-of-type(1) {
+        background: #ede0d7;
+        padding: 30px 15px;
+    }
+    .aboutblock3 .aboutblock3con:nth-of-type(3) {
+        background: #ede0d7;
+        padding: 30px 15px;
+    }
+
+    .aboutblock4 .aboutblock4con {
+        height: auto;
+        text-align: center;
+    }
+    .aboutblock4con .textblock {
+        height: auto;
+    }
+    .aboutblock3 .aboutblock3con:nth-of-type(2) img {
+        width:100%;
+    }
+    .aboutblock4 .aboutblock4con:nth-of-type(1) img {
+        width:100%;
+    }
+    .aboutblock4 .aboutblock4con:nth-of-type(3) img {
+        width:100%;
+    }
+    .aboutblock7 .aboutblock7con h2 {
+        text-align: center; padding-left: 5px; padding-right: 5px;
+    }
+    .aboutblock7con .textblock {
+        text-align: center;
+    }
+
+    .aboutblock7img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+    .aboutblock4 .aboutblock4con:nth-of-type(1) img {
+        margin-left: 0;
+    }
+
+
+
+    .innerpagetitlemiddle{max-width: 94%;margin-left: auto;margin-right: auto;float: none;}
+
+    .innerpagetitle h5{ padding-bottom: 12px;}
+
+    .aboutblock4 ul li{ list-style: none; line-height: 22px; margin: 0px;}
+
+    .homeblock2 .homeblock2con{ text-align: center; height: auto; padding: 30px 5%; width: 100%;}
+
+    .homeblock2 .homeblock2con:nth-of-type(2){  border-left:none;  border-right: none;  border-top: solid 1px #fff;  border-bottom: solid 1px #fff;}
+
+
     .resources_bannerheading .resources_tablebody{ width:98%; margin: 0 auto;}
 
     .resources_bannerheading .resources_tablebody td{ display: block; width: 100%;}
@@ -183,9 +278,10 @@
 
         .team_block1 .team1block_wrapper{ padding-left:0px; width: 90%; margin: 0 auto;}
 
-    .team_block1 .team1block_wrapper .team_block1_left{ width: 100%; float: none; border: none; padding:20px 25px 25px  25px; background: none; height: auto;}
+    .team_block1 .team1block_wrapper .team_block1_left{ width: auto; float: none; border: none; padding:25px 0px 25px  0px; background: none; height: auto;}
 
-    .team_block1 .team1block_wrapper .team_block1_left img{ width: auto; display: block; margin: 0 auto; max-width: 100%; border:solid 1px #a5a5a5; }
+    .team_block1 .team1block_wrapper .team_block1_left img{ width: 90%; padding: 2%; display: block; margin: 0 auto; max-width:inherit; border:solid 1px #a5a5a5; background: #ededed;  }
+
 
 
     .team_block1 .team1block_wrapper .team_block1_right{ width: 100%; float: none; border:solid 1px #dedede; background: #ededed; border-right: solid 1px #dedede; padding-bottom: 20px;}
@@ -337,9 +433,8 @@
     .innerpagetitle .homeh3{ padding:10px 5px 0 5px;}
     .footertopcon:nth-child(2){ margin: 25px 0;}
 
-    .homeblock2 .homeblock2con{ text-align: center; height: auto; padding: 30px 30px;}
 
-    .homeblock2 .homeblock2con:nth-of-type(2){  border-left:none;  border-right: none;  border-top: solid 1px #fff;  border-bottom: solid 1px #fff;}
+
     .team_block2{ background: #ececec; padding: 35px 2% 0 2%;}
     .team_block2 .teamblock_con{ width: 48%; margin-bottom: 35px;}
 

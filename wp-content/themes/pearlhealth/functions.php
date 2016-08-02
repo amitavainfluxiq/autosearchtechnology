@@ -228,7 +228,7 @@ function wp_teamslider() {
             //print_r($pic);
             //print_r($postimg);
             if($postimg== NULL){
-                $postimg='/wp-content/themes/pearlhealth/images/logo2.png';
+                $postimg='/wp-content/themes/pearlhealth/images/logo5.png';
 
             }
             else $postimg="/wp-content/uploads/".$postimg;

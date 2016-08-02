@@ -541,13 +541,13 @@ p{ margin:0; padding:0;}
 .homeblock2 .homeblock2con:nth-of-type(3){ background: #f2dae2;}
 
 
-.homeblock2 .homeblock2con{ text-align: center; height: 494px; padding: 76px 30px;}
+.homeblock2 .homeblock2con{ text-align: center; height: 494px; padding: 46px 30px;}
 
 .homeblock2 .homeblock2con h2{ font-size: 30px; color: #ff3000; text-transform: uppercase; margin: 0; padding: 0;  font-family: 'robotobold';}
 
-.homeblock2 .homeblock2con img{ display: block; margin: 26px auto;}
+.homeblock2 .homeblock2con img{ display: block; margin: 16px auto;}
 
-.homeblock2 .homeblock2con h3{ margin: 0; padding: 0; font-size: 18px; color: #101010; line-height: 25px;   font-family: 'robotolight';}
+.homeblock2 .homeblock2con h3{ margin: 0; padding: 0; font-size: 18px; color: #101010; line-height: 36px;   font-family: 'robotolight';}
 
 
 
@@ -618,7 +618,7 @@ p{ margin:0; padding:0;}
 }
 
 
-.homebottomrow2 .row2_con li span{ display: block; font-size: 18px; color: #1d1c1c;  margin: 0px; padding: 0px 0 0 30px; line-height: 36px; margin-top: -38px;}
+.homebottomrow2 .row2_con li span{ display: block; font-size: 18px; color: #1d1c1c;  margin: 0px; padding: 0px 0 0 30px; line-height: 36px; margin-top: -38px;  font-family: 'robotolight'; }
 .homebottomrow2 .row2_con li strong{ color: #ff0000;  font-family: 'robotobold';}
 .homebottomrow2 .row2_bottom{ width: 100%;  background:  url("../images/border-bg_bottom.png") no-repeat right top; height: 20px;}
 
@@ -661,7 +661,7 @@ p{ margin:0; padding:0;}
 
 .service_block1_contain .ser_blockdiv h3{ font-size: 20px; color: #242424; text-transform: uppercase; font-family: 'Corbel'; padding: 22px 0 14px 0; margin: 0px;}
 
-.service_block1_contain .ser_blockdiv h4{ font-size: 18px; color: #676969;  padding: 0 20px; margin: 0px; line-height: 30px; font-family: 'robotoregular';}
+.service_block1_contain .ser_blockdiv h4{ font-size: 18px; color: #676969;  padding: 0 20px; margin: 0px; line-height: 36px; font-family: "robotolight";}
 
 .service_block1_contain .ser_blockdiv .service_btn1k{ display: block; width: 118px; height: 29px; display: block; background: #ff2400; border-radius: 15px; display: block; margin: 0 auto; margin-top: 20px; text-align: center; line-height: 28px; font-size: 15px; color: #e4f3fd; text-transform: uppercase; font-family: 'Corbel'; cursor: pointer;}
 
@@ -736,7 +736,7 @@ p{ margin:0; padding:0;}
 
 .team_block1 .team1block_wrapper .team_block1_right h3{ margin: 0; padding:0; font-size: 18px; color: #767676; font-family: 'Corbel';}
 
-.team_block1 .team1block_wrapper .team_block1_right h4{ margin: 0; padding:20px 0 0px 0; font-size: 16px; color: #3f3c3c; font-family: 'Corbel-regular';  line-height: 25px; min-height:555px;  }
+.team_block1 .team1block_wrapper .team_block1_right h4{ margin: 0; padding:20px 0 0px 0; font-size: 17px; color: #3f3c3c; font-family: "robotolight";  line-height: 28px; min-height:555px;  }
 
 .team_block1 .team1block_wrapper .team_block1_right h4 p{ padding-bottom: 15px;}
 .team_block1 .team1block_wrapper .team_block1_right h5{ margin: 0; padding:20px 0 0 0; font-size: 16px; color: #525252; font-family: 'Corbel-regular'; font-style: italic;  line-height: 25px;}
